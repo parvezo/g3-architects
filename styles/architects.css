@@ -9,12 +9,17 @@
 .text-light-gray{
     color:#727272 ;
 }
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
 .btn-primarry{
     border-radius: 8px;
     color: #FFF;
     font-size: 1.25rem;
     background: #FF900F;
-    padding: 20PX 25PX ;
+    padding: 20px 20px ;
     color: #FFF;
     cursor: pointer;
     border: 0;
@@ -27,12 +32,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-
 }
 nav > ul{
     display: flex;
@@ -62,7 +61,6 @@ nav li a{
 .banner img{
     margin-top: 20px;
     width: 100%;
-
 }
 
 
@@ -99,8 +97,30 @@ margin: 70px auto;
     color: #FF900E;
     font-weight: 700;
 }
-
-
+/* facts-section */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .cards {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px ;
+    
+}
+.facts-card-container .cards-stats {
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.facts-card-container .cards-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
 
 
 @media screen and (max-width: 576px) {
